@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Collapse,
@@ -54,8 +53,8 @@ function ExamplesNavbar() {
           <UncontrolledDropdown className="button-dropdown">
             <DropdownToggle
               caret
-              data-toggle="dropdown"
-              href="#pablo"
+              data-toggle="dropdown1"
+              href="#eniqs"
               id="navbarDropdown"
               tag="a"
               onClick={(e) => e.preventDefault()}
@@ -68,27 +67,17 @@ function ExamplesNavbar() {
               <DropdownItem header tag="a">
                 Dropdown header
               </DropdownItem>
-              <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
+              <DropdownItem href="#eniqs" onClick={(e) => e.preventDefault()}>
                 Action
-              </DropdownItem>
-              <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                Another action
-              </DropdownItem>
-              <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                Something else here
               </DropdownItem>
               <DropdownItem divider></DropdownItem>
               <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
                 Separated link
               </DropdownItem>
-              <DropdownItem divider></DropdownItem>
-              <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                One more separated link
-              </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
           <div className="navbar-translate">
-            <NavbarBrand href="#" target="_blank" id="navbar-brand">
+            <NavbarBrand href="" target="_blank" id="navbar-brand">
               Eniqs
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">

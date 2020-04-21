@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import ProfilePage from "pages/ProfilePage.js";
@@ -11,11 +10,11 @@ function App() {
         <Switch>
           <Switch>
             <Route
-              path="/index"
+              path="/profile"
               render={(props) => <ProfilePage {...props} />}
             />
-            <Redirect to="/index" />
-            <Redirect from="/" to="/index" />
+            <Redirect to="/profile" />
+            <Redirect from="/" to="/profile" />
           </Switch>
         </Switch>
       </BrowserRouter>
