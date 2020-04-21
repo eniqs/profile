@@ -46,6 +46,12 @@ function ProfilePage() {
                 color="default"
                 id="tooltip515203352"
                 size="lg"
+                onClick={() =>
+                  window.open(
+                    "https://www.linkedin.com/in/olaoye-enikanorogbon-7b3a2147/",
+                    "_blank"
+                  )
+                }
               >
                 <i className="fab fa-linkedin"></i>
               </Button>
@@ -57,9 +63,13 @@ function ProfilePage() {
                 color="default"
                 id="tooltip340339231"
                 size="lg"
+                onClick={() =>
+                  window.open("https://github.com/eniqs", "_blank")
+                }
               >
                 <i className="fab fa-github"></i>
               </Button>
+
               <UncontrolledTooltip delay={0} target="tooltip340339231">
                 Github repo
               </UncontrolledTooltip>
@@ -86,7 +96,7 @@ function ProfilePage() {
                     <NavItem>
                       <NavLink
                         className={pills === "1" ? "" : ""}
-                        href="#pablo"
+                        href="#eniqs"
                         onClick={(e) => {
                           e.preventDefault();
                           setPills("1");

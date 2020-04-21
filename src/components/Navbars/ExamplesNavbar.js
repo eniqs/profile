@@ -71,7 +71,7 @@ function ExamplesNavbar() {
                 Action
               </DropdownItem>
               <DropdownItem divider></DropdownItem>
-              <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
+              <DropdownItem href="#eniqs" onClick={(e) => e.preventDefault()}>
                 Separated link
               </DropdownItem>
             </DropdownMenu>
