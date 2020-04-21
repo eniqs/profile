@@ -65,7 +65,7 @@ function ProfilePage() {
               </UncontrolledTooltip>
             </div>
             <h3 className="title">About me</h3>
-            <h5 className="description">
+            <h5 className="mb-0">
               Energetic software engineer with 7+ years’ experience developing
               enterprise software applications spanning across the Fintech,
               Consulting and Sport industries. I have increased the success rate
